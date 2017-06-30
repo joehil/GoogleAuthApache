@@ -89,9 +89,10 @@ Note that this line starts with a double-quote, which is the convention to make 
 
 So a complete file, including a password may look like this:
 
+```
 abcdefabcdef2345 
 "PASSWORD=mySecret
-
+```
 When a static password is used in conjunction with the secret key, the user should enter the static password immediately followed by the 6-digit one-time code when prompted for a password. For example, in the example above, when the user was prompted to login, they would check their Google Authenticator application and receive a one-time code such as 123456. In such a case, they would enter a password as:
 
 mySecret123456
