@@ -100,3 +100,8 @@ mySecret123456
 Troubleshooting:
 
 Obviously, check your Apache log file. One very important thing is to make sure you have proper time synchronization. Use of a service such as NTP is highly recommended. Using a larger "AuthEntryWindow" (above) can help compensate for slop in time sync.
+
+
+License:
+
+The ASF licenses this file to You under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.  You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
